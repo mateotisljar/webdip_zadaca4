@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.03.2016., 00:20:54
+    Author     : Harm
+*/
+
+@media only screen and ( device-width: 320px) and ( device-height: 480px)
+{
+    #nav{
+        width: 35%;
+        
+        font-size: x-small;
+    }
+    header{
+        font-size: x-small;
+    }
+    #sadrzaj{
+        display: inline;
+        width: 50%;
+        margin-left: auto;
+    }
+    #sadrzaj3{
+        
+        width: 30%;
+        display: inline-block;
+    }
+    video{
+        width: 150px;
+        height: 200px;
+    }
+    audio{
+        width: 150px;
+    }
+    tr td:nth-child(n+4){
+        display: none;
+    }
+    tr th:nth-child(n+4){
+        display: none;
+    }
+    
+    .inputi{
+        display: block;
+        width: 80%;
+        
+    }
+    #sadrzaj2{
+        border-style: none;
+        
+    }
+}
+@media only screen and ( device-width: 480px) and ( device-height: 320px){
+    #nav{
+        width: 35%;
+        
+        font-size: x-small;
+    }
+    #sadrzaj{
+        display: inline;
+        width: 50%;
+        margin-left: auto;
+    }
+    video{
+        width: 230px;
+        height: 200px;
+    }
+    audio{
+        width: 230px;
+    }
+    .inputi{
+        display: block;
+        width: 80%;
+        
+    }
+    #sadrzaj2{
+        border-style: none;
+        
+    }
+  }
+@media only screen and ( device-width: 640px) and ( device-height: 1136px){
+    #nav{
+        width: 30%;
+        
+        font-size: x-small;
+    }
+    #sadrzaj{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+    }
+    tr td:nth-child(n+4){
+        display: none;
+    }
+    tr th:nth-child(n+4){
+        display: none;
+    }
+    .inputi{
+        display: block;
+        width: 90%;
+        
+    }
+    #sadrzaj2{
+        border-style: none;
+        
+    }
+  }
+@media only screen and (  device-width: 1136px) and ( device-height: 640px){
+    #sadrzaj3{
+        display: inline-block;
+        width: 50%;
+        margin-left: 0;
+        
+    }
+    tr td:nth-child(n+12){
+        display: none;
+    }
+    tr th:nth-child(n+12){
+        display: none;
+    } 
+  }
+@media only screen and ( device-width: 720px) and ( device-height: 1280px){
+    tr td:nth-child(n+4){
+        display: none;
+    }
+    tr th:nth-child(n+4){
+        display: none;
+    }
+    #sadrzaj2{
+        border-style: none;
+        
+    }
+  }
+@media only screen and ( device-width: 1280px) and ( device-height: 720px){
+   #sadrzaj2{
+        border-style: none;
+        
+    }     
+  }

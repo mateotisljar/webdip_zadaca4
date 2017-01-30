@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.03.2016., 00:19:40
+    Author     : Harm
+*/
+
+aside{
+    display: none;
+    
+}
+
+header{
+    display: none;
+}
+
+body{
+    font-size: small;
+    
+}
+
+footer{
+    display: none;
+}
+
+#nav> ul li a{
+    color: black;
+}
+
+#nesredjena > li a:visited{
+    color: black;
+}

@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.03.2016., 22:57:44
+    Author     : Harm
+*/
+
+header{
+    background-image: url('../img/logo.png');
+
+    background-color: #1874CD;
+    background-repeat: no-repeat;
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    font: Times New Roman;
+    font-size: 20px;
+
+}
+
+.nevidljivo{
+    display: hidden;
+}
+
+.ispravno{
+    background-color: greenyellow;
+}
+
+.neispravno{
+    background-color: orangered;
+}
+
+#sadrzaj{
+    width: 70%;
+    float:left;
+    margin: 20px 5px;
+    padding: 20px 5px;
+    margin-left: 30px; 
+
+
+}
+
+#sadrzaj2{
+    width: 25%;
+    float:right;
+    margin: 20px 5px;
+    padding: 20px 5px;
+    margin-left: 30px; 
+    border: 3px solid gray;
+    border-radius: 50px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+#nav{
+    background-color: white;
+    display: inline-block;
+    font-style: oblique;
+    width: 20%;
+
+    margin-bottom: 3px;
+    padding: 3px;
+    float:left;
+}
+
+
+nav > ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    border: 0.5px gray;
+    border-style:dotted;
+
+
+
+
+
+    padding: 11px 20px;
+    margin-bottom: 15px;
+
+}
+
+#nav > ul {
+
+    list-style: none;
+    line-height: 1;
+    margin: 2px;
+    padding: 2px;
+}
+
+#nav > ul li a:hover{
+    background-color: #1874CD;
+    font-weight: bolder;
+    font-style: normal;
+    color:white;
+
+
+}
+
+
+footer {
+    background-color: #1874CD;
+    color:#ffffff;
+    width: 100%;
+    clear: both;
+    text-align:center;
+
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+
+.foot{
+    height: 50px;
+    width: 50px
+}
+
+.slike{
+
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+
+
+
+}
+
+
+#videi{
+    float: left;
+}
+.slike > a img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+#video{
+    display: inline-block;
+    float:left;
+}
+
+img.sli{
+    display:block;
+    margin: 5px 5px;
+    padding: 5px 5px;
+
+
+
+}
+#nesredjena  {
+    list-style-type: decimal;
+}
+#asocijativna > dl dt{
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.labele{
+    font-weight: bold;
+
+}
+
+.inputi{
+    background-size: 20%;
+
+    border-radius: 15px;
+    border: 2px solid #1874CD;
+
+}
+section{ 
+
+    font-weight: bold; 
+    float:left; 
+
+}
+
+section > form> input{ 
+    padding: 5px 5px;
+
+}
+
+a:active{
+    background-color:#0045ff;
+}
+
+.selected{
+    background-color: #1874CD;
+    color:white;
+    font-weight: bolder;
+
+    font-style: oblique;
+    text-decoration: underline;
+
+    border-radius: 10px;
+    border: 5px groove gray;
+}
+
+#lista > ol{
+    list-style-type: square;
+}
+
+#nesredjena > li a:visited{
+    color: burlywood;
+}
+
+.slike > figcaption{
+    font: 'Times New Roman';
+    font-size: 20px;
+    color: #1874CD;
+}
+
+
+form{
+    position: relative;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    background-size: 20%;
+
+    border-radius: 15px;
+    border: 2px solid #1874CD;
+}
+
+
+
+td:hover{
+    background-color: #1874CD;
+}
+
+
+#sadrzaj_ispis_korisnika{
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
